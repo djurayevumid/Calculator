@@ -20,7 +20,7 @@ public class Calc2 {
 
             String readyExpression = expression.trim().replaceAll("\\s", "");
             if (readyExpression.contains(",") || readyExpression.contains(".")) {
-                throw new Exception("ОШИБКА ВВОДА: калькуоятор не работает с десятичными лробями!");
+                throw new Exception("ОШИБКА ВВОДА: калькуоятор не работает с десятичными дробями!");
             } else {
                 System.out.println(showResult(readyExpression));
             }
